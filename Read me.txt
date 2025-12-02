@@ -1,0 +1,104 @@
+🚀 Robo Advisor - Boost Your Future Wealth
+A smart, risk-aware financial planning application powered by Python algorithms and visualized with a stunning, modern Streamlit interface.
+
+
+🌟 Overview
+This Robo Advisor helps users plan their financial future with precision. It combines a conversational Goal Planner, a detailed Budget Analyzer, and a comprehensive Wealth Dashboard into a single, intuitive application. The app uses a "Rocket/Space" themed dark mode design for an engaging user experience.
+
+Key Features
+💬 Goal Planner (Chat):
+
+Natural language interface to describe financial goals (e.g., "Plan 50 lakh for a house in 10 years").
+
+Automatically extracts target amounts, time horizons, and expected returns.
+
+Calculates inflation-adjusted targets and required monthly SIPs.
+
+Risk Profiling: Integrated 6-factor questionnaire (Age, Income Stability, Crash Reaction, etc.) to determine if you are Conservative, Moderate, or Aggressive.
+
+💰 Budget Planner:
+
+Income-based budgeting tool to analyze cash flow.
+
+Calculates "Free Cash" and "Savings Rate" instantly.
+
+Visualizes expenses vs. investments using dynamic charts.
+
+Provides actionable insights on emergency fund coverage and savings habits.
+
+📊 Analytics Dashboard:
+
+Centralized view of all saved goals.
+
+What-If Simulations: Adjust sliders to see how changes in returns or years affect your corpus.
+
+Asset Allocation: View detailed investment splits (Equity vs. Debt vs. Hybrid) tailored to your specific risk profile.
+
+Goal Cards: Beautifully rendered cards summarizing each goal's progress and requirements.
+
+🛠️ Technology Stack
+Frontend & UI: Streamlit (Python-based web framework)
+
+Styling: Custom CSS (Glassmorphism, Gradient Text, Animations)
+
+Data Processing: pandas
+
+Visualizations: plotly
+
+Logic: Custom Python modules for financial math and risk assessment.
+
+
+🚀 Getting Started
+Prerequisites
+Python 3.8 or higher installed.
+
+Installation
+Clone or Download this repository to your local machine.
+
+Open the folder in your terminal or VS Code.
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+If you don't have a requirements.txt yet, install these manually:
+
+pip install streamlit pandas plotly
+
+Running the App
+In your terminal, run the following command:
+
+streamlit run app.py
+
+The app will open automatically in your default web browser (usually at http://localhost:8501).
+
+🎨 Design Philosophy
+The application moves away from standard data dashboards by implementing a custom "Space/Rocket" theme:
+
+Deep Navy Backgrounds (#050A18) with Aurora-like gradients.
+
+Glassmorphism on cards and inputs for a modern, layered feel.
+
+Linear Gradients on buttons and text (#6C28FE to #FF007A).
+
+SVG Illustrations embedded directly for visual storytelling without external assets.
+
+🤝 Usage Guide
+Start at Home: Get an overview of the platform's capabilities.
+
+Go to Planner:
+
+Click "Risk Profile Settings" on the right to set your profile.
+
+Use the Chat to plan a goal (e.g., "1 Crore for retirement in 20 years").
+
+Click "Save Goal" to add it to your dashboard.
+
+Check Budget: Enter your monthly income and expenses to see if you can afford your SIPs.
+
+Visit Analytics: Review your saved goals, run "What-If" simulations, and see where to invest.
+
+📄 License
+This project is open-source and available for educational and personal financial planning use.
+
+Built with using Python & Streamlit.
