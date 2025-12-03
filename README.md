@@ -4,6 +4,12 @@ A Streamlit-powered robo-advisory app that parses natural-language financial goa
 ---
 
 
+# 📟 Deployed App
+https://roboadvisor-21.streamlit.app/
+
+
+---
+
 # 🔧 Features
 - Natural-language goal parsing (amount, years, expected return)
 - Inflation-adjusted target calculation and SIP estimation
